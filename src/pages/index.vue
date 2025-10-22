@@ -92,5 +92,158 @@
         </p>
       </div>
     </section>
+
+    <br>
+
+    <section
+      class="max-w-4xl mx-auto bg-white rounded-2xl shadow-md p-6 sm:p-10"
+    >
+      <header class="mb-8">
+        <p class="mt-1 text-sm text-gray-500">
+          Section 2 — Proposition : Table de jeu intéractive
+        </p>
+      </header>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h2 class="text-lg font-medium text-gray-900 mb-3">
+          Table intéractive
+        </h2>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Description de la table intéractive
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Fonctionnement
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Fonctionnement de la table
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Comment va-t-on répondre aux contraintes et défis?
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Réponse aux contraintes et défis
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Interactions
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: interactions
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Schématisation matérielle prévue
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Schématisation matérielle
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Schématisation logicielle prévue
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Schématisation logicielle
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Justification des technologies
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Justification des technologies
+        </p>
+      </article>
+
+    </section>
+
+    <br>
+
+    <section
+      class="max-w-4xl mx-auto bg-white rounded-2xl shadow-md p-6 sm:p-10"
+    >
+      <header class="mb-8">
+        <p class="mt-1 text-sm text-gray-500">
+          Section 3 — Proposition : détection du traffic dans les classes
+        </p>
+      </header>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h2 class="text-lg font-medium text-gray-900 mb-3">
+          Détection du traffic dans les classes
+        </h2>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Description de projet de détection du traffic dans les classes
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Fonctionnement
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Fonctionnement du système de détection
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Comment va-t-on répondre aux contraintes et défis?
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Réponse aux contraintes et défis
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Interactions
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: interactions
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Schématisation matérielle prévue
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Schématisation matérielle
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Schématisation logicielle prévue
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Schématisation logicielle
+        </p>
+      </article>
+
+      <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">
+          Justification des technologies
+        </h3>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          TODO: Justification des technologies
+        </p>
+      </article>
+
+    </section>
+
   </main>
 </template>
