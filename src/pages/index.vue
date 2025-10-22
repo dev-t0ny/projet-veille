@@ -1,5 +1,5 @@
 <template>
-  <main class="min-h-screen bg-gray-50 py-10 px-6 sm:px-10 lg:px-20">
+  <main class="min-h-screen bg-gray-200 py-10 px-6 sm:px-10 lg:px-20">
     <section
       class="max-w-4xl mx-auto bg-white rounded-2xl shadow-md p-6 sm:p-10"
     >
