@@ -188,18 +188,14 @@
         <h3 class="text-lg font-medium text-gray-900 mb-3">
           Schématisation matérielle prévue
         </h3>
-        <p class="text-sm text-gray-700 leading-relaxed">
-          TODO: Schématisation matérielle
-        </p>
+          <img src="../../public/schema_mat_table.png" alt="">
       </article>
 
       <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
         <h3 class="text-lg font-medium text-gray-900 mb-3">
           Schématisation logicielle prévue
         </h3>
-        <p class="text-sm text-gray-700 leading-relaxed">
-          TODO: Schématisation logicielle
-        </p>
+       <img src="../../public/Schema_logiciel_table.webp" alt="">
       </article>
 
       <article class="bg-gray-50 border border-gray-100 rounded-lg p-6 mb-6">
