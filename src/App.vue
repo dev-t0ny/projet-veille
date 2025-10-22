@@ -17,8 +17,8 @@
       <RouterView />
     </main>
 
-    <footer class="text-center py-4 text-xs text-gray-800 border-t">
-      TP2 - Cégep Garneau — Automne 2025
+    <footer class="text-center py-4 text-xs text-gray-500 border-t">
+      Projet réalisé dans le cadre du cours de Veille Technologique - Antoine Boudreau, Samuel Dussault-Gagnon, Gabriel Gingras, Fabio Mora Gonzalez
     </footer>
   </div>
 </template>
