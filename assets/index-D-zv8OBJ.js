@@ -18,7 +18,7 @@
  * pinia v3.0.3
  * (c) 2025 Eduardo San Martin Morote
  * @license MIT
- */const cc=Symbol();var sr;(function(e){e.direct="direct",e.patchObject="patch object",e.patchFunction="patch function"})(sr||(sr={}));function fc(){const e=Qi(!0),t=e.run(()=>Gr({}));let n=[],s=[];const r=Ur({install(i){r._a=i,i.provide(cc,r),i.config.globalProperties.$pinia=r,s.forEach(o=>n.push(o)),s=[]},use(i){return this._a?n.push(i):s.push(i),this},_p:n,_a:null,_e:e,_s:new Map,state:t});return r}const uc=(e,t)=>{const n=e.__vccOpts||e;for(const[s,r]of t)n[s]=r;return n},ac={};function dc(e,t){return yl(),Rl(Fe,null,[t[0]||(t[0]=qt("h1",null,"You did it!",-1)),t[1]||(t[1]=qt("p",null,[Qn(" Visit "),qt("a",{href:"https://vuejs.org/",target:"_blank",rel:"noopener"},"vuejs.org"),Qn(" to read the documentation ")],-1))],64)}const hc=uc(ac,[["render",dc]]);/*!
+ */const cc=Symbol();var sr;(function(e){e.direct="direct",e.patchObject="patch object",e.patchFunction="patch function"})(sr||(sr={}));function fc(){const e=Qi(!0),t=e.run(()=>Gr({}));let n=[],s=[];const r=Ur({install(i){r._a=i,i.provide(cc,r),i.config.globalProperties.$pinia=r,s.forEach(o=>n.push(o)),s=[]},use(i){return this._a?n.push(i):s.push(i),this},_p:n,_a:null,_e:e,_s:new Map,state:t});return r}const uc=(e,t)=>{const n=e.__vccOpts||e;for(const[s,r]of t)n[s]=r;return n},ac={};function dc(e,t){return yl(),Rl(Fe,null,[t[0]||(t[0]=qt("h1",{class:"text-xl"},"You did it!",-1)),t[1]||(t[1]=qt("p",null,[Qn(" Visit "),qt("a",{href:"https://vuejs.org/",target:"_blank",rel:"noopener"},"vuejs.org"),Qn(" to read the documentation ")],-1))],64)}const hc=uc(ac,[["render",dc]]);/*!
  * vue-router v4.6.3
  * (c) 2025 Eduardo San Martin Morote
  * @license MIT
