@@ -1,7 +1,24 @@
-<script setup></script>
-
 <template>
-  <h1 class="text-xl text-white text-center">You did it!</h1>
-</template>
+  <div class="flex flex-col text-white-400 text-white">
+    <header class="shadow-sm">
+      <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-semibold">
+          Projet Veille
+        </h1>
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li>
+            <RouterLink to="/" class="hover:text-white-600 transition">Accueil</RouterLink>
+          </li>
+          </ul>
+      </nav>
+    </header>
 
-<style scoped></style>
+    <main class="flex-1">
+      <RouterView />
+    </main>
+
+    <footer class="text-center py-4 text-xs text-gray-800 border-t">
+      TP2 - Cégep Garneau — Automne 2025
+    </footer>
+  </div>
+</template>

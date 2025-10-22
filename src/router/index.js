@@ -1,8 +1,11 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
+import IndexPage from '@/pages/index.vue'
 
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [],
+const routes = [
+  { path: '/', component: IndexPage },
+]
+
+export default createRouter({
+  history: createWebHashHistory('/projet-veille/'),
+  routes
 })
-
-export default router
