@@ -144,7 +144,7 @@
                             <b>Justification :</b> Bonne luminosité et image
                             nette, idéale pour les tests.
                         </li>
-                        <li><b>Expérimenté par :</b> Gabriel Gingras</li>
+                        <li><b>Expérimenté par :</b> Gabriel Gingras et Antoine Boudreau</li>
                     </ul>
                 </div>
             </div>
