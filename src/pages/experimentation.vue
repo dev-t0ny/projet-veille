@@ -51,9 +51,7 @@
               alt="Matériel RFID connecté"
               class="w-3/4 rounded-lg shadow-md"
             />
-            <p class="text-sm text-gray-600 mt-2">
-              Matériel connecté sur la breadboard
-            </p>
+            <p class="text-sm text-gray-600 mt-2">Matériel connecté</p>
           </div>
         </div>
         <div class="bg-white p-6 rounded-lg mb-6">
@@ -73,12 +71,11 @@
               RFID et l'afficher dans le moniteur série
             </li>
             <li>
-              <b>Contexte d'expérimentation :</b> Test réalisé sur une planche
-              de prototypage avec le module RC522 relié en SPI à un Arduino Uno.
-              Le but était de valider la détection d'un tag RFID à courte
-              distance et la communication série. Plusieurs tests ont été
-              effectués à différentes distances pour déterminer la portée
-              optimale du capteur.
+              <b>Contexte d'expérimentation :</b> Test réalisé avec le module
+              RC522 relié à un Arduino Uno. Le but était de valider la détection
+              d'un tag RFID à courte distance et la communication. Plusieurs
+              tests ont été effectués à différentes distances pour déterminer la
+              portée optimale du capteur.
             </li>
           </ul>
         </div>
@@ -91,33 +88,34 @@
           <pre
             class="bg-gray-900 text-gray-100 text-sm rounded-lg p-4 mt-4 overflow-x-auto"
           >
-#include &lt;SPI.h&gt;
-#include &lt;MFRC522.h&gt;
+            #include &lt;SPI.h&gt;
+            #include &lt;MFRC522.h&gt;
 
-#define RST_PIN 9
-#define SS_PIN 10
+            #define RST_PIN 9
+            #define SS_PIN 10
 
-MFRC522 mfrc522(SS_PIN, RST_PIN);
+            MFRC522 mfrc522(SS_PIN, RST_PIN);
 
-void setup() {
-  Serial.begin(9600);
-  SPI.begin();
-  mfrc522.PCD_Init();
-  Serial.println(F("Scan a card..."));
-}
+            void setup() {
+            Serial.begin(9600);
+            SPI.begin();
+            mfrc522.PCD_Init();
+            Serial.println(F("Scan a card..."));
+            }
 
-void loop() {
-  if (!mfrc522.PICC_IsNewCardPresent()) return;
-  if (!mfrc522.PICC_ReadCardSerial()) return;
+            void loop() {
+            if (!mfrc522.PICC_IsNewCardPresent()) return;
+            if (!mfrc522.PICC_ReadCardSerial()) return;
 
-  Serial.print(F("UID tag:"));
-  for (byte i = 0; i &lt; mfrc522.uid.size; i++) {
-    Serial.print(mfrc522.uid.uidByte[i], HEX);
-    Serial.print(" ");
-  }
-  Serial.println();
-  mfrc522.PICC_HaltA();
-}</pre
+            Serial.print(F("UID tag:"));
+            for (byte i = 0; i &lt; mfrc522.uid.size; i++) {
+                Serial.print(mfrc522.uid.uidByte[i], HEX);
+                Serial.print(" ");
+            }
+            Serial.println();
+            mfrc522.PICC_HaltA();
+            }
+        </pre
           >
         </details>
         <div class="bg-white p-6 rounded-lg mb-6">
@@ -128,8 +126,7 @@ void loop() {
             Le capteur a détecté correctement les tags RFID à différentes
             distances. Les identifiants s'affichaient clairement dans le
             moniteur série avec une petite latence. Les tests sous la table ont
-            démontré que le capteur peut fonctionner à travers une surface fine,
-            ce qui est idéal pour notre application de table interactive.
+            démontré que le capteur peut fonctionner à travers une surface fine.
           </p>
           <h4 class="font-semibold text-lg text-gray-900 mb-3">
             Analyse et recommandations
@@ -140,7 +137,8 @@ void loop() {
             une épaisseur maximale de 1cm pour maintenir une détection fiable.
             Le positionnement des tags est critique : ils doivent être bien
             alignés avec le capteur pour une lecture optimale. Cette technologie
-            est idéale pour reconnaître des objets placés sur la table de jeu.
+            est idéale pour reconnaître des objets placés sur la table de jeu,
+            tant que celle-ci est suffisamment fine.
           </p>
         </div>
         <div class="mt-6 bg-blue-50 border-2 border-blue-300 rounded-lg p-6">
@@ -193,7 +191,7 @@ void loop() {
           </h4>
           <ul class="text-base text-gray-700 space-y-2">
             <li>
-              <b>Membre de l'équipe :</b> Antoine Boudreau et Gabriel Gingras
+              <b>Membres de l'équipe :</b> Antoine Boudreau et Gabriel Gingras
             </li>
             <li>
               <b>Technologies utilisées :</b> Arduino Uno, Capteur Ultrasonique
@@ -204,12 +202,12 @@ void loop() {
               au-dessus du capteur pour détecter la présence d'un joueur
             </li>
             <li>
-              <b>Contexte d'expérimentation :</b> Test réalisé sur breadboard
-              avec affichage des distances en centimètres dans le moniteur
-              série. La visée était d'obtenir une détection stable et précise
-              jusqu'à environ 50 cm de distance (selon nos tests). Le capteur
-              utilise des ondes ultrasoniques pour calculer la distance en
-              mesurant le temps de retour de l'écho.
+              <b>Contexte d'expérimentation :</b> Test avec affichage des
+              distances en centimètres dans le moniteur série. La visée était
+              d'obtenir une détection stable et précise jusqu'à environ 50 cm de
+              distance (selon nos tests). Le capteur utilise des ondes
+              ultrasoniques pour calculer la distance en mesurant le temps de
+              retour de l'écho.
             </li>
           </ul>
         </div>
@@ -263,7 +261,7 @@ void loop() {
           </h4>
           <ul class="text-base text-gray-700 space-y-2">
             <li>
-              <b>Membre de l'équipe :</b> Gabriel Gingras et Antoine Boudreau
+              <b>Membres de l'équipe :</b> Gabriel Gingras et Antoine Boudreau
             </li>
             <li>
               <b>Technologies utilisées :</b> Projecteur Epson PowerLite 1780W

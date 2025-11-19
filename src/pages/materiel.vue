@@ -25,8 +25,8 @@
                             >
                         </li>
                         <li>
-                            <b>Usage :</b> Gère la logique du jeu et l’affichage
-                            à l’écran.
+                            <b>Usage :</b> Gère la logique du jeu et l'affichage
+                            à l'écran.
                         </li>
                         <li>
                             <b>Justification :</b> Petit ordinateur fiable et
@@ -115,7 +115,7 @@
                             placés sur la table.
                         </li>
                         <li>
-                            <b>Justification :</b> Permet d’ajouter une
+                            <b>Justification :</b> Permet d'ajouter une
                             interaction unique entre les joueurs et le jeu.
                         </li>
                         <li><b>Expérimenté par :</b> Fabio Mora Gonzalez et Samuel Dussault-Gagnon</li>
