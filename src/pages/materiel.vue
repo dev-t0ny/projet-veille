@@ -16,7 +16,7 @@
                         <li><b>Fabricant :</b> Raspberry Pi Foundation</li>
                         <li><b>Modèle :</b> Raspberry Pi 4 Model B</li>
                         <li>
-                            <b>Lien :</b>
+                            <b>Lien : </b>
                             <a
                                 href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"
                                 target="_blank"
@@ -26,15 +26,14 @@
                         </li>
                         <li>
                             <b>Usage :</b> Gère la logique du jeu et l’affichage
-                            à l’écran
+                            à l’écran.
                         </li>
                         <li>
                             <b>Justification :</b> Petit ordinateur fiable et
-                            assez puissant pour tout gérer
+                            assez puissant pour tout gérer.
                         </li>
                         <li>
-                            <b>Expérimenté par :</b> Antoine Boudreau, Samuel
-                            Dussault-Gagnon
+                            <b>Expérimenté par :</b> Antoine Boudreau
                         </li>
                     </ul>
                 </div>
@@ -47,7 +46,7 @@
                         <li><b>Fabricant :</b> Arduino.cc</li>
                         <li><b>Modèle :</b> Arduino Uno R3</li>
                         <li>
-                            <b>Lien :</b>
+                            <b>Lien : </b>
                             <a
                                 href="https://store.arduino.cc/products/arduino-uno-rev3"
                                 target="_blank"
@@ -57,13 +56,13 @@
                         </li>
                         <li>
                             <b>Usage :</b> Reçoit les données des capteurs et
-                            les envoie au Raspberry Pi
+                            les envoie au Raspberry Pi.
                         </li>
                         <li>
                             <b>Justification :</b> Simple à utiliser et parfait
-                            pour connecter plusieurs capteurs
+                            pour connecter plusieurs capteurs.
                         </li>
-                        <li><b>Expérimenté par :</b> Samuel Dussault-Gagnon</li>
+                        <li><b>Expérimenté par :</b> Samuel Dussault-Gagnon, Fabio Mora Gonzalez, Gabriel Gingras et Antoine Boudreau</li>
                     </ul>
                 </div>
 
@@ -75,7 +74,7 @@
                         <li><b>Fabricant :</b> Waveshare</li>
                         <li><b>Modèle :</b> HC-SR04</li>
                         <li>
-                            <b>Lien :</b>
+                            <b>Lien : </b>
                             <a
                                 href="https://www.sparkfun.com/products/15569"
                                 target="_blank"
@@ -85,13 +84,13 @@
                         </li>
                         <li>
                             <b>Usage :</b> Mesure la distance pour détecter si
-                            un joueur est assis
+                            un joueur est assis.
                         </li>
                         <li>
                             <b>Justification :</b> Précis, peu coûteux et facile
-                            à tester avec Arduino
+                            à tester avec Arduino.
                         </li>
-                        <li><b>Expérimenté par :</b> Antoine Boudreau</li>
+                        <li><b>Expérimenté par :</b> Gabriel Gingras</li>
                     </ul>
                 </div>
 
@@ -103,7 +102,7 @@
                         <li><b>Fabricant :</b> MFRC522</li>
                         <li><b>Modèle :</b> RC522 RFID Reader</li>
                         <li>
-                            <b>Lien :</b>
+                            <b>Lien : </b>
                             <a
                                 href="https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf"
                                 target="_blank"
@@ -113,13 +112,13 @@
                         </li>
                         <li>
                             <b>Usage :</b> Identifier des cartes ou des objets
-                            placés sur la table
+                            placés sur la table.
                         </li>
                         <li>
                             <b>Justification :</b> Permet d’ajouter une
-                            interaction unique entre les joueurs et le jeu
+                            interaction unique entre les joueurs et le jeu.
                         </li>
-                        <li><b>Expérimenté par :</b> Fabio Mora Gonzalez</li>
+                        <li><b>Expérimenté par :</b> Fabio Mora Gonzalez et Samuel Dussault-Gagnon</li>
                     </ul>
                 </div>
 
@@ -129,7 +128,7 @@
                         <li><b>Fabricant :</b> Epson</li>
                         <li><b>Modèle :</b> H795A (PowerLite 1780W)</li>
                         <li>
-                            <b>Lien :</b>
+                            <b>Lien : </b>
                             <a
                                 href="https://epson.ca/For-Work/Projectors/Portable/PowerLite-1780W-Wireless-WXGA-3LCD-Projector/p/V11H795020-F"
                                 target="_blank"
@@ -139,11 +138,11 @@
                         </li>
                         <li>
                             <b>Usage :</b> Projette le jeu directement sur la
-                            table
+                            table.
                         </li>
                         <li>
                             <b>Justification :</b> Bonne luminosité et image
-                            nette, idéale pour les tests
+                            nette, idéale pour les tests.
                         </li>
                         <li><b>Expérimenté par :</b> Gabriel Gingras</li>
                     </ul>
